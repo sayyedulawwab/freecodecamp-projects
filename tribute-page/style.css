@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#title {
+  text-align: center;
+}
+#title-para {
+  text-align: center;
+}
+#main {
+  margin: auto;
+  width: 80%;
+}
+#img-div {
+  margin: 1rem;
+}
+#image,
+#img-caption {
+  display: block;
+  margin: auto;
+  width: 70%;
+  max-width: 400px;
+}
+#tribute-info {
+  text-align: justify;
+}
+#tribute-link {
+  text-decoration-line: none;
+  color: #0084ff;
+}
