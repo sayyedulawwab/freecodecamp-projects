@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar" class="navbar">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hey I'm Sayyedul</h1>
+      <p>Learning Web development</p>
+      <p>Want to be a Full-stack developer</p>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="projects-header">My Recent Work</h2>
+
+      <div class="projects-grid">
+        <a
+          href="https://sayyedulbappy.github.io/freecodecamp-projects/technical-documentation-page/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="images/technical-docs.png"
+            alt="technical-docs project"
+          />
+          <p class="project-title">
+            Technical Documentation
+          </p>
+        </a>
+        <a
+          href="https://sayyedulbappy.github.io/freecodecamp-projects/product-landing-page/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="images/product-landing-page.png"
+            alt="project"
+          />
+          <p class="project-title">
+            Product Landing Page
+          </p>
+        </a>
+        <a
+          href="https://sayyedulbappy.github.io/freecodecamp-projects/survey-form/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="images/survey-form.png"
+            alt="project"
+          />
+          <p class="project-title">
+            Survey Form
+          </p>
+        </a>
+        <a
+          href="https://sayyedulbappy.github.io/freecodecamp-projects/tribute-page/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="images/tribute-page.png"
+            alt="project"
+          />
+          <p class="project-title">
+            Tribute Page
+          </p>
+        </a>
+      </div>
+
+      <a
+        href="https://sayyedulbappy.github.io/freecodecamp-projects/"
+        target="_blank"
+        class="show-all"
+        >Show all</a
+      >
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-header">
+        <h2>Let's work together...</h2>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/sayyedulbappy/" target="_blank">
+          <img class="icon" src="images/linkedin-brands.svg" alt="Linkedin" />
+        </a>
+        <a
+          id="profile-link"
+          href="https://github.com/sayyedulbappy"
+          target="_blank"
+        >
+          <img class="icon" src="images/github-brands.svg" alt="GitHub" />
+        </a>
+        <a href="https://freecodecamp.com/sayyedulbappy" target="_blank">
+          <img
+            class="icon"
+            src="images/free-code-camp-brands.svg"
+            alt="freecodecamp"
+          />
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; Created by Sayyedul Bappy
+      </p>
+    </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script>
+      const projectName = 'portfolio';
+      localStorage.setItem('example_project', 'Personal Portfolio');
+    </script>
+  </body>
+</html>

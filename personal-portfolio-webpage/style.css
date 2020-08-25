@@ -1,0 +1,128 @@
+/* Custom properties/variables  */
+:root {
+}
+
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* box-sizing and font sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Base styles */
+
+body {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  width: 80%;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.nav-list li {
+  margin: 1rem;
+}
+
+.nav-list a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.welcome-section {
+  height: 100vh;
+  text-align: center;
+  margin-top: 30vh;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.projects-header {
+  text-align: center;
+}
+.project {
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 1px 1px 5px 5px #e6e6e6;
+  text-align: center;
+}
+
+.show-all {
+  display: block;
+  width: 10rem;
+  background-color: #dadada;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+}
+.show-all:hover {
+  background-color: #c2c2c2;
+}
+
+.contact {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+.contact-links {
+  margin: 1rem 0;
+}
+.contact-links a {
+  color: #00a2ff;
+  margin: 0.5rem;
+}
+.contact-links a:hover {
+  color: #0b6ceb;
+}
+footer {
+  text-align: center;
+}
+
+.icon {
+  display: inline-block;
+  width: 2rem;
+  fill: #9b9b9b;
+}
+.icon:hover {
+}
+@media (min-width: 760px) {
+}
