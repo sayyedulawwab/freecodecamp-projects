@@ -4,7 +4,7 @@ Here I will be uploading projects assigned by freecodecamp
 
 You can click on the links below to see them live !!!
 
-## Responsive Web Design Certification
+## Responsive Web Design Projects
 
 - [Tribute Page](https://sayyedulbappy.github.io/freecodecamp-projects/tribute-page/)
 
