@@ -2,7 +2,7 @@ div.main-body {
   display: grid;
   grid-template-columns: minmax(300px, auto) 1fr;
   grid-gap: 20px;
-  grid-template-areas: 'navbar mainContent';
+  grid-template-areas: "navbar mainContent";
 }
 
 #navbar {
@@ -59,7 +59,7 @@ code {
 @media screen and (max-width: 750px) {
   div.main-body {
     grid-template-columns: 1fr;
-    grid-template-areas: 'navbar' 'mainContent';
+    grid-template-areas: "navbar" "mainContent";
   }
   #navbar ul {
     height: 80%;
