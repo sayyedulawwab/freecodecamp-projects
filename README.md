@@ -15,3 +15,15 @@ You can click on the links below to see them live !!!
 - [Technical Documentation Page](https://sayyedulbappy.github.io/freecodecamp-projects/Responsive-Web-Design-Projects/technical-documentation-page/)
 
 - [Personal Portfolio Webpage](https://sayyedulbappy.github.io/freecodecamp-projects/Responsive-Web-Design-Projects/personal-portfolio-webpage/)
+
+## JavaScript Algorithms and Data Structures Projects
+
+- [Palindrome checker](JavaScript-Algorithms-and-Data-Structures-Projects/1.palindrome-checker.js)
+
+- [Roman Numeral Converter](JavaScript-Algorithms-and-Data-Structures-Projects/2.roman-numeral-converter.js)
+
+- [Caesars Cipher](JavaScript-Algorithms-and-Data-Structures-Projects/3.caesars-cipher.js)
+
+- [Telephone Number Validator](JavaScript-Algorithms-and-Data-Structures-Projects/4.telephone-number-validator.js)
+
+- [Cash Register](JavaScript-Algorithms-and-Data-Structures-Projects/5.cash-register.js)
